@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# React Film & Series Finder
+
+
+![スクリーンショット 2022-11-30 14 45 06](https://user-images.githubusercontent.com/92433326/205027994-13b59c33-e3dd-4a46-81b2-52e0dbddeeca.png)
+
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
