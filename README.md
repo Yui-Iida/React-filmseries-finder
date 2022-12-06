@@ -22,3 +22,12 @@ Tech Stack: React | Create React App | Material UI | CSS | npm | The Movie Datab
 - Install npm with ```npm install```
 - Create a .env file with your API key by The Movie Database API.
 - Run ```npm start``` to start the server in development
+
+## Tests
+I did testing manually with checking on my browser below and passed:
+
+- Chrome
+- Firefox
+- Brave
+- Opera
+- Safari
