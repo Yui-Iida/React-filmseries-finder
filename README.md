@@ -1,8 +1,6 @@
 # React Film & Series Finder
 
-
-![スクリーンショット 2022-11-30 14 45 06](https://user-images.githubusercontent.com/92433326/205027994-13b59c33-e3dd-4a46-81b2-52e0dbddeeca.png)
-
+![video](https://user-images.githubusercontent.com/92433326/205909059-dc736eb1-8390-4f2d-89c7-8ec1cb68c690.gif)
 
 
 ## Getting Started with Create React App
