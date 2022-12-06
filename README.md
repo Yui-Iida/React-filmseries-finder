@@ -31,3 +31,13 @@ I did testing manually with checking on my browser below and passed:
 - Brave
 - Opera
 - Safari
+
+
+## Improvement
+Additionally I would add and improve in the future:
+
+- Informations of cinemas where to watch
+- Informations of available platforms 
+- Seach by director or actor
+
+Thank you very much for reading this!
