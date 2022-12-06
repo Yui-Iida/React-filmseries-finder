@@ -1,4 +1,3 @@
-// import { Button, Tab, Tabs } from "@material-ui/core";
 import { Button, Tab, Tabs } from "@mui/material";
 import { TextField } from "@mui/material";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
@@ -93,11 +92,7 @@ const Search = () => {
       </div>
 
       {numOfPages > 1 && (
-        <motion.div
-          initial={{ opacity: 0 }}
-          // whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.8 }}
-        >
+        <motion.div initial={{ opacity: 0 }} transition={{ duration: 0.8 }}>
           <CustomPagination setPage={setPage} numOfPages={numOfPages} />
         </motion.div>
       )}

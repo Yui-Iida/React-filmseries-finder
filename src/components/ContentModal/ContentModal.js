@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import Backdrop from "@mui/material/Backdrop";
 import Box from "@mui/material/Box";
-
 import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
 import Button from "@mui/material/Button";
@@ -53,12 +51,7 @@ const ContentModal = ({ children, media_type, id }) => {
 
   return (
     <>
-      <div
-        onClick={handleOpen}
-        className="media"
-        // color="inherit"
-        style={{ cursor: "pointer" }}
-      >
+      <div onClick={handleOpen} className="media" style={{ cursor: "pointer" }}>
         {children}
       </div>
       <Modal
@@ -122,7 +115,6 @@ const ContentModal = ({ children, media_type, id }) => {
                     backgroundColor="#333"
                     target="__blank"
                     href={`https://www.youtube.com/watch?v=${video}`}
-                    // style={{ margin: "10px 50px 20px 50px", fontWeight: 700 }}
                     style={{
                       borderRadius: 5,
                       backgroundColor: "#777",

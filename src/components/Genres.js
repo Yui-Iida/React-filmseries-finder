@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import axios from "axios";
 import { Chip } from "@material-ui/core";
-// import Chip from "@mui/material/Chip";
 
 const Genres = ({
   type,
@@ -47,12 +46,6 @@ const Genres = ({
         <Chip
           label={genre.name}
           key={genre.id}
-          // sx={{
-          //   margin: 3,
-          //   backgroundColor: "#777",
-          //   color: "#fff",
-          //   fontWeight: 600,
-          // }}
           style={{ margin: 3, backgroundColor: "#bbb" }}
           size="small"
           clickable
