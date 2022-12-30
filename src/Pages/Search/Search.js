@@ -86,9 +86,8 @@ const Search = () => {
               />
             </motion.div>
           ))}
-        {searchText && contents.length === 0 && (
-          <h3 style={{ marginTop: "100px" }}>No Content Found</h3>
-        )}
+        {/* {searchText && contents.length === 0 && ( */}
+        {searchText && <h3 style={{ marginTop: "100px" }}>No Content Found</h3>}
       </div>
 
       {numOfPages > 1 && (
